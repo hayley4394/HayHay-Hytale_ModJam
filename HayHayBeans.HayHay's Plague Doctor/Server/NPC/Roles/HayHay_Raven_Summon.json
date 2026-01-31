@@ -9,7 +9,7 @@
     "FlockArray": [
       "Risen_Knight"
     ],
-    "Attack": "Root_NPC_Wolf_Attack",
+    "Attack": "Root_NPC_Attack_Melee",
     "AttackDistance": 3,
     "DesiredAttackDistanceRange": [
       2,
@@ -21,20 +21,20 @@
       "Melee_Start": {
         "Interactions": [
           {
-            "Parent": "Wolf_Bite",
+            "Parent": "NPC_Attack_Melee_Simple",
             "$Comment": "Sets animations and delay before hit",
             "Effects": {
-              "ItemPlayerAnimationsId": "Wolf_Black_Default",
+              "ItemPlayerAnimationsId": "Hound_Bleached_Default",
               "ItemAnimationId": "Bite"
             },
             "RunTime": 0.167
           }
         ]
       },
-      "Bite_Damage": {
+      "Melee_Damage": {
         "Interactions": [
           {
-            "Parent": "Wolf_Bite_Damage",
+            "Parent": "NPC_Attack_Melee_Damage",
             "DamageCalculator": {
               "Type": "Absolute",
               "BaseDamage": {

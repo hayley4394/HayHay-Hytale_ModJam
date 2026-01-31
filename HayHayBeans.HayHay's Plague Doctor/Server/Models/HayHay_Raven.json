@@ -1,6 +1,6 @@
 {
-  "Model": "NPC/Flying_Wildlife/Raven/Models/Model.blockymodel",
-  "Texture": "NPC/Flying_Wildlife/Raven/Models/Texture.png",
+  "Model": "NPC/Flying_Wildlife/Raven/Models/HayHay_Raven.blockymodel",
+  "Texture": "NPC/Flying_Wildlife/Raven/Models/HayHay_Raven_Texture.png",
   "EyeHeight": 0.6,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -453,5 +453,9 @@
       0,
       -12
     ]
+  },
+  "Light": {
+    "Color": "#464",
+    "Radius": 1
   }
 }
