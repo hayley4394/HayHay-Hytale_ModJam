@@ -1,0 +1,55 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "Stamina": 10
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.1,
+    "Next": {
+      "Type": "ModifyInventory",
+      "AdjustHeldItemDurability": -0.5,
+      "Next": {
+        "Type": "Parallel",
+        "Interactions": [
+          {
+            "Interactions": [
+              {
+                "Type": "SpawnNPC",
+                "EntityId": "HayHay_Raven_Summon",
+                "SpawnOffset": {
+                  "X": 0,
+                  "Y": 1.5,
+                  "Z": 0
+                },
+                "UseLatestTarget": false
+              }
+            ]
+          },
+          {
+            "Interactions": [
+              {
+                "Type": "ChangeStat",
+                "StatModifiers": {
+                  "Stamina": -10
+                }
+              }
+            ]
+          },
+          {
+            "Interactions": [
+              {
+                "Type": "ChangeStat",
+                "Behaviour": "Set",
+                "StatModifiers": {
+                  "StaminaRegenDelay": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Failed": "Spellbook_Primary_Raven_Fail"
+}

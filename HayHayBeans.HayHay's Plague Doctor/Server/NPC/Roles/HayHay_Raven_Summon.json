@@ -1,0 +1,57 @@
+{
+  "Type": "Variant",
+  "Reference": "Summoned_Raven_Ally",
+  "Modify": {
+    "MaxHealth": 74,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "Appearance": "HayHay_Raven",
+    "FlockArray": [
+      "Risen_Knight"
+    ],
+    "Attack": "Root_NPC_Wolf_Attack",
+    "AttackDistance": 3,
+    "DesiredAttackDistanceRange": [
+      2,
+      2.5
+    ],
+    "Weapons": [],
+    "OffHand": [],
+    "_InteractionVars": {
+      "Melee_Start": {
+        "Interactions": [
+          {
+            "Parent": "Wolf_Bite",
+            "$Comment": "Sets animations and delay before hit",
+            "Effects": {
+              "ItemPlayerAnimationsId": "Wolf_Black_Default",
+              "ItemAnimationId": "Bite"
+            },
+            "RunTime": 0.167
+          }
+        ]
+      },
+      "Bite_Damage": {
+        "Interactions": [
+          {
+            "Parent": "Wolf_Bite_Damage",
+            "DamageCalculator": {
+              "Type": "Absolute",
+              "BaseDamage": {
+                "Physical": 27
+              },
+              "RandomPercentageModifier": 0.1
+            },
+            "DamageEffects": {
+              "Knockback": {
+                "Force": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ApplySeparation": true,
+    "NameTranslationKey": "server.npcRoles.Skeleton_Knight.name"
+  }
+}
