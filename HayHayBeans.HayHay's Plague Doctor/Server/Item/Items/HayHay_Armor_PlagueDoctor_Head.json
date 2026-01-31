@@ -1,21 +1,22 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Cindercloth_Head.name"
+    "Name": "server.items.Plague_Doctor_Head.name",
+    "Description": "server.items.Plague_Doctor_Head.description"
   },
   "Parent": "Armor_Iron_Head",
   "Quality": "Legendary",
   "ItemLevel": 45,
-  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Cindercloth_Head.png",
+  "Icon": "Icons/ItemsGenerated/HayHay_Armor_PlagueDoctor_Head.png",
   "IconProperties": {
+    "Scale": 0.5,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
-    "Scale": 0.5,
     "Translation": [
-      -1.8,
-      -1.8
+      1,
+      -63
     ]
   },
   "Model": "Items/Armors/PlagueDoctor/Head.blockymodel",

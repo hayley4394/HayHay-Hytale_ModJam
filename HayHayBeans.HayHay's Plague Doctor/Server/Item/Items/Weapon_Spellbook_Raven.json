@@ -8,19 +8,19 @@
   ],
   "Quality": "Legendary",
   "ItemLevel": 40,
-  "Model": "Items/Weapons/Spellbook/Grimoire.blockymodel",
-  "Texture": "Items/Weapons/Spellbook/Grimoire_Purple_Texture.png",
+  "Model": "Items/Weapons/Spellbook/Raven_Book.blockymodel",
+  "Texture": "Items/Weapons/Spellbook/Raven_Book_Texture.png",
   "PlayerAnimationsId": "Spellbook",
   "IconProperties": {
-    "Scale": 0.745,
+    "Scale": 0.6,
     "Rotation": [
       45,
       90,
       0
     ],
     "Translation": [
-      -7.8,
-      -7.8
+      -11,
+      -11
     ]
   },
   "Interactions": {
@@ -83,7 +83,7 @@
     ],
     "Input": [
       {
-        "ItemId": "Ingredient_Fibre",
+        "ItemId": "Ingredient_Feathers_Dark",
         "Quantity": 20
       },
       {
@@ -93,6 +93,10 @@
       {
         "ItemId": "Ingredient_Bar_Thorium",
         "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 2
       }
     ],
     "TimeSeconds": 6,

@@ -1,21 +1,22 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Cindercloth_Chest.name"
+    "Name": "server.items.Plague_Doctor_Chest.name",
+    "Description": "server.items.Plague_Doctor_Chest.description"
   },
   "Parent": "Armor_Iron_Chest",
   "Quality": "Legendary",
   "ItemLevel": 45,
-  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Cindercloth_Chest.png",
+  "Icon": "Icons/ItemsGenerated/HayHay_Armor_PlagueDoctor_Chest.png",
   "IconProperties": {
+    "Scale": 0.4,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
-    "Scale": 0.4,
     "Translation": [
       0,
-      -17.4
+      -7
     ]
   },
   "Model": "Items/Armors/PlagueDoctor/Chest.blockymodel",

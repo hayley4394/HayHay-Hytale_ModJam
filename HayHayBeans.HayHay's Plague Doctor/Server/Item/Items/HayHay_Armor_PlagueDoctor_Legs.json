@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Cindercloth_Legs.name"
+    "Name": "server.items.Plague_Doctor_Legs.name",
+    "Description": "server.items.Plague_Doctor_Legs.description"
   },
   "Parent": "Armor_Iron_Legs",
   "Quality": "Legendary",
