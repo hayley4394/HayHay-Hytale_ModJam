@@ -102,5 +102,6 @@
     "TimeSeconds": 6,
     "KnowledgeRequired": false,
     "RequiredMemoriesLevel": 1
-  }
+  },
+  "Animation": "Items/Weapons/Spellbook/Spin.blockyanim"
 }
