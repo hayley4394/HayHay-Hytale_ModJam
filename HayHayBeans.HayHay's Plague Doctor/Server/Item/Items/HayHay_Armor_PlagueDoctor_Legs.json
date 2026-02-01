@@ -91,6 +91,5 @@
   },
   "MaxDurability": 120,
   "ItemSoundSetId": "ISS_Armor_Cloth",
-  "Animation": "Items/Armors/PlagueDoctor/Boot_Spin.blockyanim",
   "UsePlayerAnimations": false
 }
