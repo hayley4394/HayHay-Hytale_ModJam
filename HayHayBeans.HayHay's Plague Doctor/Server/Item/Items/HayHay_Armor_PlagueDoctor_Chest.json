@@ -1,7 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plague_Doctor_Chest.name",
-    "Description": "server.items.Plague_Doctor_Chest.description"
+    "Name": "server.items.Plague_Doctor_Chest.name"
   },
   "Parent": "Armor_Iron_Chest",
   "Quality": "Legendary",
@@ -67,10 +66,10 @@
           "CalculationType": "Multiplicative"
         }
       ],
-      "Fire": [
+      "Poison": [
         {
-          "Amount": 0.75,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Multiplicative",
+          "Amount": 0.25
         }
       ]
     },
@@ -79,6 +78,14 @@
         {
           "Amount": 17,
           "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageEnhancement": {
+      "Poison": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.05
         }
       ]
     }

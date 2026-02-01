@@ -1,7 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plague_Doctor_Legs.name",
-    "Description": "server.items.Plague_Doctor_Legs.description"
+    "Name": "server.items.Plague_Doctor_Legs.name"
   },
   "Parent": "Armor_Iron_Legs",
   "Quality": "Legendary",
@@ -61,12 +60,6 @@
           "Amount": 13,
           "CalculationType": "Additive"
         }
-      ],
-      "Mana": [
-        {
-          "Amount": 28,
-          "CalculationType": "Additive"
-        }
       ]
     },
     "DamageResistance": {
@@ -80,6 +73,20 @@
         {
           "Amount": 0.07,
           "CalculationType": "Multiplicative"
+        }
+      ],
+      "Poison": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.25
+        }
+      ]
+    },
+    "DamageEnhancement": {
+      "Poison": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.05
         }
       ]
     }

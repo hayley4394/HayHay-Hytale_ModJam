@@ -1,7 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plague_Doctor_Hands.name",
-    "Description": "server.items.Plague_Doctor_Hands.description"
+    "Name": "server.items.Plague_Doctor_Hands.name"
   },
   "Parent": "Armor_Iron_Hands",
   "Quality": "Legendary",
@@ -57,12 +56,6 @@
           "Amount": 7,
           "CalculationType": "Additive"
         }
-      ],
-      "Mana": [
-        {
-          "Amount": 16,
-          "CalculationType": "Additive"
-        }
       ]
     },
     "DamageResistance": {
@@ -76,6 +69,20 @@
         {
           "Amount": 0.04,
           "CalculationType": "Multiplicative"
+        }
+      ],
+      "Poison": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.25
+        }
+      ]
+    },
+    "DamageEnhancement": {
+      "Poison": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.05
         }
       ]
     }
