@@ -38,7 +38,7 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "TODO",
+        "Id": "Armor_Bench",
         "Type": "Crafting",
         "Categories": [
           "Armor_Chest"
