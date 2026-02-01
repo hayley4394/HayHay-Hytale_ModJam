@@ -25,16 +25,17 @@
     "TimeSeconds": 2,
     "Input": [
       {
-        "ItemId": "Ingredient_Bolt_Cindercloth",
-        "Quantity": 3
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 10
       },
       {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
+        "ResourceTypeId": "",
+        "Quantity": 10,
+        "ItemId": "Ingredient_Feathers_Dark"
       },
       {
-        "ItemId": "Ingredient_Bar_Adamantite",
-        "Quantity": 2
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 15
       }
     ],
     "BenchRequirement": [

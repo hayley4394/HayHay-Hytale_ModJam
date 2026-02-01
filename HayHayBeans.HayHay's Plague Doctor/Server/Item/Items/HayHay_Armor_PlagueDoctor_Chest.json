@@ -24,16 +24,17 @@
     "TimeSeconds": 2,
     "Input": [
       {
-        "ItemId": "Ingredient_Bolt_Cindercloth",
-        "Quantity": 6
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 10
       },
       {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
+        "ResourceTypeId": "",
+        "Quantity": 10,
+        "ItemId": "Ingredient_Feathers_Dark"
       },
       {
-        "ItemId": "Ingredient_Bar_Adamantite",
-        "Quantity": 2
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 28
       }
     ],
     "BenchRequirement": [
@@ -56,13 +57,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.09,
+          "Amount": 0.14,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.09,
+          "Amount": 0.14,
           "CalculationType": "Multiplicative"
         }
       ],
@@ -76,7 +77,7 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 17,
+          "Amount": 24,
           "CalculationType": "Additive"
         }
       ]
