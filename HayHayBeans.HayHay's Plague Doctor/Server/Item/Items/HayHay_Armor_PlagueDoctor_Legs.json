@@ -6,17 +6,17 @@
   "Parent": "Armor_Iron_Legs",
   "Quality": "Legendary",
   "ItemLevel": 45,
-  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Cindercloth_Legs.png",
+  "Icon": "Icons/ItemsGenerated/HayHay_Armor_PlagueDoctor_Legs.png",
   "IconProperties": {
+    "Scale": 0.5,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
-    "Scale": 0.37,
     "Translation": [
-      0,
-      -22.8
+      5,
+      -15
     ]
   },
   "Model": "Items/Armors/PlagueDoctor/Legs.blockymodel",
@@ -90,5 +90,7 @@
     ]
   },
   "MaxDurability": 120,
-  "ItemSoundSetId": "ISS_Armor_Cloth"
+  "ItemSoundSetId": "ISS_Armor_Cloth",
+  "Animation": "Items/Armors/PlagueDoctor/Boot_Spin.blockyanim",
+  "UsePlayerAnimations": false
 }

@@ -6,17 +6,17 @@
   "Parent": "Armor_Iron_Hands",
   "Quality": "Legendary",
   "ItemLevel": 45,
-  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Cindercloth_Hands.png",
+  "Icon": "Icons/ItemsGenerated/HayHay_Armor_PlagueDoctor_Hands.png",
   "IconProperties": {
+    "Scale": 0.645,
     "Rotation": [
-      22.5,
-      45,
+      21.94,
+      45.565,
       22.5
     ],
-    "Scale": 0.72,
     "Translation": [
-      2.1,
-      0.3
+      31,
+      -56
     ]
   },
   "Model": "Items/Armors/PlagueDoctor/Hands.blockymodel",
