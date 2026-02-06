@@ -29,11 +29,6 @@
         "Quantity": 10
       },
       {
-        "ResourceTypeId": "",
-        "Quantity": 10,
-        "ItemId": "Ingredient_Feathers_Dark"
-      },
-      {
         "ItemId": "Ingredient_Bar_Thorium",
         "Quantity": 15
       }

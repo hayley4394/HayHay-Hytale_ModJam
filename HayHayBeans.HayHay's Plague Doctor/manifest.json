@@ -1,8 +1,8 @@
 {
   "Group": "HayHayBeans",
   "Name": "HayHay's Plague Doctor",
-  "Version": "1.0.0",
-  "Description": "",
+  "Version": "1.1.1",
+  "Description": "Echoes of the Raven Plague Doctor - Submission for the Echoes of the Machine Hytale Mod Jam",
   "Authors": [
     {
       "Name": "HayHayBeans",
@@ -10,7 +10,7 @@
       "Url": ""
     }
   ],
-  "Website": "",
+  "Website": "https://github.com/hayley4394/HayHay-Hytale_ModJam",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
