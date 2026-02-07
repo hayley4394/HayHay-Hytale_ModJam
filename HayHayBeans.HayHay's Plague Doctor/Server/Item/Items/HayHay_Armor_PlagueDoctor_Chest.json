@@ -30,6 +30,10 @@
       {
         "ItemId": "Ingredient_Bar_Thorium",
         "Quantity": 28
+      },
+      {
+        "ItemId": "Ingredient_Feathers_Dark",
+        "Quantity": 10
       }
     ],
     "BenchRequirement": [
