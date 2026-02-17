@@ -22,19 +22,19 @@
   "Model": "Items/Armors/PlagueDoctor/Head.blockymodel",
   "Texture": "Items/Armors/PlagueDoctor/Head_Texture.png",
   "Recipe": {
-    "TimeSeconds": 2,
+    "TimeSeconds": 3,
     "Input": [
       {
         "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
-        "Quantity": 10
+        "Quantity": 20
       },
       {
         "ItemId": "Ingredient_Bar_Thorium",
-        "Quantity": 15
+        "Quantity": 30
       },
       {
         "ItemId": "Ingredient_Feathers_Dark",
-        "Quantity": 10
+        "Quantity": 20
       }
     ],
     "BenchRequirement": [
@@ -43,7 +43,8 @@
         "Type": "Crafting",
         "Categories": [
           "Armor_Head"
-        ]
+        ],
+        "RequiredTierLevel": 3
       }
     ],
     "KnowledgeRequired": false
