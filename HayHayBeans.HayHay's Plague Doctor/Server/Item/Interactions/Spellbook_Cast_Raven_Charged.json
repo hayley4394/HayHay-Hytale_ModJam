@@ -48,6 +48,10 @@
             ]
           }
         ]
+      },
+      "ItemToRemove": {
+        "Id": "Ingredient_Feathers_Dark",
+        "Quantity": 5
       }
     }
   },

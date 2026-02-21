@@ -1,8 +1,8 @@
 items.Weapon_Spellbook_Raven.name = Echoes of the Ravens
-items.Weapon_Spellbook_Raven.description = Spawns echoes of the ravens for 10 stamina each. Must point down at the ground to summon.
+items.Weapon_Spellbook_Raven.description = Spawns echoes of the ravens for <color is="#328f4e">10 Stamina</color> and <color is="#bdafc1">5 Dark Feathers</color> each. Must point down at the ground to summon.
 
 items.Plague_Doctor_Head.name = Raven Plague Doctor Hood
-items.Plague_Doctor_Head.description = Adds a slight Health and Stamina Regen.
+items.Plague_Doctor_Head.description = Adds a slight <color is="#d03126">Health</color> and <color is="#328f4e">Stamina</color> Regen.
 
 items.Plague_Doctor_Chest.name = Raven Plague Doctor Tunic
 
