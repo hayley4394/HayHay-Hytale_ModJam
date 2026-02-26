@@ -1,0 +1,15 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "server.items.HayHay_Plague_Doctor_Gloves.name"
+    }
+  },
+  "CosmeticSlot": "Gloves",
+  "Appearance": {
+    "Model": "Characters/HayHay_Plague_Doctor_Gloves/HayHay_Plague_Doctor_Gloves.blockymodel",
+    "TextureConfig": {
+      "Texture": "Characters/HayHay_Plague_Doctor_Gloves/HayHay_Plague_Doctor_Gloves.png"
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Gloves.png"
+}

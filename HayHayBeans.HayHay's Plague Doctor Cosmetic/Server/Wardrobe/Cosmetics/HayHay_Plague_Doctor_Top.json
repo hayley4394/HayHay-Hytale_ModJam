@@ -1,0 +1,15 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "server.items.HayHay_Plague_Doctor_Top.name"
+    }
+  },
+  "CosmeticSlot": "Overtop",
+  "Appearance": {
+    "Model": "Characters/HayHay_Plague_Doctor_Top/HayHay_Plague_Doctor_Top.blockymodel",
+    "TextureConfig": {
+      "Texture": "Characters/HayHay_Plague_Doctor_Top/HayHay_Plague_Doctor_Top.png"
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Armor.png"
+}

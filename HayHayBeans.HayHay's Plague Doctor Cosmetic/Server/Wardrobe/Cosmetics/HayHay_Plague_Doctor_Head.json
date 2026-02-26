@@ -1,0 +1,20 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "server.items.HayHay_Plague_Doctor_Head.name"
+    }
+  },
+  "CosmeticSlot": "HeadAccessory",
+  "HiddenCosmeticSlots": [
+    "Ears",
+    "Haircut",
+    "EarAccessory"
+  ],
+  "Appearance": {
+    "Model": "Characters/HayHay_Plague_Doctor_Head/HayHay_Plague_Doctor_Head.blockymodel",
+    "TextureConfig": {
+      "Texture": "Characters/HayHay_Plague_Doctor_Head/HayHay_Plague_Doctor_Head.png"
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Hood.png"
+}

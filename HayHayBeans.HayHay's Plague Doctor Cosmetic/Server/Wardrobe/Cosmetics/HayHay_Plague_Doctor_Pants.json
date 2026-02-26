@@ -1,0 +1,15 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "server.items.HayHay_Plague_Doctor_Pants.name"
+    }
+  },
+  "CosmeticSlot": "Pants",
+  "Appearance": {
+    "Model": "Characters/HayHay_Plague_Doctor_Pants/HayHay_Plague_Doctor_Pants.blockymodel",
+    "TextureConfig": {
+      "Texture": "Characters/HayHay_Plague_Doctor_Pants/HayHay_Plague_Doctor_Pants.png"
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Legs.png"
+}
