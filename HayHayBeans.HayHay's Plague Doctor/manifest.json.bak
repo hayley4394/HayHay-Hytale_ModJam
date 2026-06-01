@@ -1,8 +1,8 @@
 {
   "Group": "HayHayBeans",
   "Name": "HayHay's Plague Doctor",
-  "Version": "1.5.1",
-  "Description": "Adds a plague doctor set and a new \"Echoes of the Raven\" spell book weapon that summon ravens to fight along side you. Costing 10 stamina and 5 dark feathers each.",
+  "Version": "1.5.2",
+  "Description": "Adds a plague doctor set and a new Echoes of the Raven spell book weapon that summon ravens to fight along side you. Costing 10 stamina and 5 dark feathers each.",
   "Authors": [
     {
       "Name": "HayHayBeans",
